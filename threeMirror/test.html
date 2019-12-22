@@ -39,7 +39,7 @@
             scene.add(circle);
             
             // declare video variables
-            const videoTexture, videoSettings;
+            var videoTexture, videoSettings;
             
             // get video from webcam and create video texture
             navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
